@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-print(open("The Zen of Python", "r").read())
-close()
+f = open("The Zen of Python", "r")
+print(f.read())
+f.close()
