@@ -5,3 +5,4 @@ if __name__ == "__main__":
     i = 0
     while (i < len(dir())):
         print("{}".format(dir()[i]))
+        i += 1
