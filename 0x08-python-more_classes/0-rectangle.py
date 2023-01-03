@@ -4,6 +4,6 @@ Creates an empty class Rectangle that defines a rectangle
 """
 
 
-class Rectangle():
+class Rectangle:
     """Empty class"""
     pass
