@@ -5,9 +5,7 @@ Creates a class Square that defines a square
 
 
 class Square:
-    """
-    Defines a square
-    """
+    """Defines a square"""
     def __init__(self, size=0):
         self.__size = size
         if (type(self.__size) is not int):
