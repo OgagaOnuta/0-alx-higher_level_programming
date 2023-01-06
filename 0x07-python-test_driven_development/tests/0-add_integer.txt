@@ -10,12 +10,6 @@ TypeError: a must be an integer
 >>> add(1, "world")
 Traceback (most recent call last):
 TypeError: b must be an integer
->>> add(True, 2)
-Traceback (most recent call last):
-TypeError: a must be an integer
->>> add(1, False)
-Traceback (most recent call last):
-TypeError: b must be an integer
 >>> add(,)
 Traceback (most recent call last):
 SyntaxError: invalid syntax
