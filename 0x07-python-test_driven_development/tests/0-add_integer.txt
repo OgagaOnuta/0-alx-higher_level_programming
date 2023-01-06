@@ -48,3 +48,7 @@ TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
 >>> add(1a,)
 Traceback (most recent call last):
 SyntaxError: invalid decimal literal
+
+>>> add(int("HELLO"), )
+Traceback (most recent call last):
+ValueError: invalid literal for int() with base 10: 'HELLO'
