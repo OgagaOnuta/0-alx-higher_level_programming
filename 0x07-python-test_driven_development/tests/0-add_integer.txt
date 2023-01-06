@@ -18,6 +18,9 @@
 >>> add(99)
 197
 
+>>> add(add(2))
+198
+
 >>> add("hello", 2)
 Traceback (most recent call last):
 TypeError: a must be an integer
