@@ -16,3 +16,17 @@ TypeError: a must be an integer
 >>> add(1, False)
 Traceback (most recent call last):
 TypeError: b must be an integer
+>>> add(,)
+Traceback (most recent call last):
+  File "<stdin>", line 1
+    add(,)
+        ^
+SyntaxError: invalid syntax
+>>> add(1,)
+99
+>>> add(,2)
+Traceback (most recent call last):
+  File "<stdin>", line 1
+    add(,2)
+        ^
+SyntaxError: invalid syntax
