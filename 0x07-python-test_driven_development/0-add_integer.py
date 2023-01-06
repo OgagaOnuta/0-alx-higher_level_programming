@@ -3,9 +3,10 @@
 Adds 2 integers
 """
 
+
 def add_integer(a, b=98):
     """Adds a + b
-    
+
     Args:
         a (int): first integer
         b (int): second integer
