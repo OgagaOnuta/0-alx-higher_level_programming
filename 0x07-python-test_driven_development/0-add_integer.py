@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-Adds 2 integers
+Defines a function that takes
+in 2 integers and returns the sum
+
 """
 
 
