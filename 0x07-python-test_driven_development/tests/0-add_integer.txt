@@ -34,3 +34,7 @@ SyntaxError: invalid syntax
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: add_integer() takes from 1 to 2 positional arguments but 3 were given
+>>> add()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: add_integer() missing 1 required positional argument: 'a'
