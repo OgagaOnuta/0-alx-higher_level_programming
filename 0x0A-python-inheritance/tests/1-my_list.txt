@@ -1,0 +1,17 @@
+>>> listed = __import__('1-my_list').MyList
+>>>
+>>> x = listed()
+>>> x
+[]
+
+>>> x.append(1)
+>>> x.append(4)
+>>> x.append(2)
+>>> x.append(3)
+>>> x.append(5)
+
+>>> x
+[1, 4, 2, 3, 5]
+
+>>> x.print_sorted()
+[1, 2, 3, 4, 5]
