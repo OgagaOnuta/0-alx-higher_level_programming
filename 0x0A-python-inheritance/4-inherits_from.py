@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defines a function that checks if an 
+Defines a function that checks if an
 object is a subclass of a specified class
 """
 
