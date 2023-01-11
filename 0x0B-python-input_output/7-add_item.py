@@ -13,10 +13,12 @@ filed = "add_item.json"
 listed = []
 
 try:
-    listed = loaded(filed) + sys.argv[1:]
+    listed = loaded(filed)
 except Exception:
-    with open(filed, "w", encoding="utf-8") as f:
-        for i in sys.argv[1:]:
-            listed = f.write(i)
-finally:
-    saved(listed, filed)
+    with open(filed, "x", encoding="utf-8") as f:
+        pass
+
+for i in sys.argv[1:]:
+    listed.append(i)
+
+saved(listed, filed)
