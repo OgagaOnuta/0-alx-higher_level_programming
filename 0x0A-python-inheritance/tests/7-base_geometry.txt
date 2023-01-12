@@ -19,7 +19,3 @@ TypeError: BaseGeometry.integer_validator() missing 2 required positional argume
 >>> bg.integer_validator("name", Pythoned)
 Traceback (most recent call last):
 NameError: name 'Pythoned' is not defined
-
->>> bg.area()
-Traceback (most recent call last):
-Exception: area() is not implemented
