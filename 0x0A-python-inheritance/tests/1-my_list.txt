@@ -4,6 +4,9 @@
 >>> x
 []
 
+>>> x.print_sorted()
+[]
+
 >>> x.append(1)
 >>> x.append(4)
 >>> x.append(2)
