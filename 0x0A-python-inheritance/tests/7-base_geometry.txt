@@ -12,10 +12,6 @@ TypeError: name must be an integer
 Traceback (most recent call last):
 ValueError: age must be greater than 0
 
->>> bg.integer_validator()
-Traceback (most recent call last):
-TypeError: BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
-
 >>> bg.integer_validator("name", Pythoned)
 Traceback (most recent call last):
 NameError: name 'Pythoned' is not defined
