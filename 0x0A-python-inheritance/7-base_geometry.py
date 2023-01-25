@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-Creates an class BaseGeometry
-"""
+"""Creates an class BaseGeometry"""
 
 
 class BaseGeometry:
-    """ A Base Geometry class """
+    """A Base Geometry class"""
     def __init__(self):
         pass
 

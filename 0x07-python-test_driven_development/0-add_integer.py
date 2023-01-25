@@ -1,9 +1,5 @@
 #!/usr/bin/python3
-"""
-Defines a function that takes
-in 2 integers and returns the sum
-
-"""
+"""Defines a function that takes in 2 integers and returns the sum"""
 
 
 def add_integer(a, b=98):
@@ -15,6 +11,7 @@ def add_integer(a, b=98):
 
     Returns:
         a + b
+
     """
     if ((type(a) is not int) and (type(a) is not float)):
         raise TypeError("a must be an integer")
