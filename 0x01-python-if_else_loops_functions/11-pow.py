@@ -4,11 +4,11 @@
 def pow(a, b):
     '''Computes a to the power of b
     
-       Args:
-           a (int): The first parameter
-           b (int): The second parameter
+    Args:
+        a (int): The first parameter
+        b (int): The second parameter
 
-       Returns:
-           a ** b
+    Returns:
+        a ** b
     '''
     return (a ** b)
