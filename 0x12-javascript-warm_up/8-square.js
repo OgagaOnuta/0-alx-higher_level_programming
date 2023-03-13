@@ -8,7 +8,7 @@ if (isNaN(process.argv[2])) {
 } else {
   const x = parseInt(process.argv[2]);
 
-  function str () {
+  const squareChar = () => {
     let str = '';
     let i = 0;
 
@@ -22,7 +22,7 @@ if (isNaN(process.argv[2])) {
 
   let i = 0;
   while (i < x) {
-    console.log(str());
+    console.log(squareChar());
     i++;
   }
 }
