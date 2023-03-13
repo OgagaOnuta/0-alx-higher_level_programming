@@ -8,7 +8,7 @@ if (isNaN(process.argv[2])) {
 } else {
   const x = parseInt(process.argv[2]);
 
-  const str = () => {
+  function str () {
     let str = '';
     let i = 0;
 
@@ -16,6 +16,7 @@ if (isNaN(process.argv[2])) {
       str += 'X';
       i++;
     }
+
     return (str);
   }
 
