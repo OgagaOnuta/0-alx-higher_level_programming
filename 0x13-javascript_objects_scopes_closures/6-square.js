@@ -1,9 +1,9 @@
 #!/usr/bin/node
 // Creates a class that inherits from another class
 
-const Rectangle = require('./4-rectangle');
+const SuperSquare = require('./5-square');
 
-module.exports = class Square extends Rectangle {
+module.exports = class Square extends SuperSquare {
   constructor (size) {
     super(size, size);
   }
