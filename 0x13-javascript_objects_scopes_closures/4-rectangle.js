@@ -10,21 +10,16 @@ module.exports = class Rectangle {
   }
 
   print () {
-    const wid = () => {
-      let str = '';
-      let i = 0;
-
-      while (i < this.width) {
-        str += 'X';
-        i++;
-      }
-
-      return (str);
-    };
-
+    let str = '';
     let i = 0;
+    let j = 0;
+
     while (i < this.height) {
-      console.log(wid());
+      while (j < this.width) {
+        str += 'X';
+        j++;
+      }
+      console.log(str);
       i++;
     }
   }
