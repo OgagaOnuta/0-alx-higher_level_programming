@@ -42,7 +42,7 @@ function searchBiggest (givenArray) {
 
 if ((len === 2) || (len === 3)) {
   console.log(0);
-} else {
+} else if (len > 3) {
   const myArray = createArray(); // Create the array
   const big = searchBiggest(myArray); // Search for the biggest element
   const myIndex = myArray.indexOf(big); // Get the index of the biggest element
