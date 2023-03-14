@@ -5,9 +5,6 @@ const process = require('process');
 
 const len = process.argv.length;
 
-// Initialize the array
-let myArray;
-
 // Function to search for the biggest element in the array
 const bigger = function searchBiggest (givenArray) {
   const givenLength = givenArray.length;
@@ -33,8 +30,8 @@ const bigger = function searchBiggest (givenArray) {
 if ((len === 2) || (len === 3)) {
   console.log(0);
 } else if (len > 3) {
-  // Assign value to the array
-  myArray = () => {
+  // Initialize the array
+  const myArray = function createArray () {
     const myArray = [];
     let i = 2;
 
