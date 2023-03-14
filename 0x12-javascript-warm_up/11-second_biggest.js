@@ -11,7 +11,7 @@ function createArray () {
   let i = 2;
 
   while (i < len) {
-    myArray.push(parseFloat(process.argv[i]));
+    myArray.push(parseInt(process.argv[i]));
     i++;
   }
 
@@ -41,7 +41,7 @@ function searchBiggest (givenArray) {
 }
 
 if ((len === 2) || (len === 3)) {
-  console.log('0');
+  console.log(0);
 } else {
   const myArray = createArray(); // Create the array
   const big = searchBiggest(myArray); // Search for the biggest element
