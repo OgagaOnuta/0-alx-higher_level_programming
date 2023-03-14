@@ -8,20 +8,14 @@ const len = process.argv.length;
 // Function to search for the biggest element in the array
 const bigger = function searchBiggest (givenArray) {
   const givenLength = givenArray.length;
-  let i = 2;
-  let bigger;
-
-  if (givenArray[0] > givenArray[1]) {
-    bigger = givenArray[0]; // First element is bigger
-  } else {
-    bigger = givenArray[1]; // Second element is bigger
-  }
+  let i = 0;
+  let bigger = givenArray[i];
 
   while (i < givenLength) {
+    i++;
     if (bigger < givenArray[i]) {
       bigger = givenArray[i]; // Next element is bigger
     }
-    i++;
   }
 
   return (bigger);
