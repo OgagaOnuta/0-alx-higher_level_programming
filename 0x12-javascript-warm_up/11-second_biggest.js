@@ -11,7 +11,7 @@ function createArray () {
   let i = 2;
 
   while (i < len) {
-    myArray.push(parseInt(process.argv[i]));
+    myArray.push(parseFloat(process.argv[i]));
     i++;
   }
 
