@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Lists all data from a table in a database'''
+'''Adds data to a table in a database'''
 
 import sys
 from model_state import Base, State
