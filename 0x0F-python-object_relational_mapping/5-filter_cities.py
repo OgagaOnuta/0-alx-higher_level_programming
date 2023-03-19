@@ -17,15 +17,17 @@ if __name__ == "__main__":
     WHERE (states.name = '{}') \
     ORDER BY states.id".format(sys.argv[4]))
     rows = cur.fetchall()
-    length = len(rows)
+    for row in range(len(rows)):
+        print("".format(cur.fetchone()), end=", ")
 
-    for row in rows:
-        for col in row:
-            length -= 1
-            print(col, end="")
-            if (length != 0):
-                print(", ", end="")
-            else:
-                print()
+    # length = len(rows)
+    # for row in rows:
+    #     for col in row:
+    #         length -= 1
+    #         print(col, end="")
+    #         if (length != 0):
+    #             print(", ", end="")
+    #         else:
+    #             print()
     cur.close()
     db.close()
